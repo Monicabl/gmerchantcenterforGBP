@@ -1,2 +1,2 @@
 # gmerchantcenterforGBP
-this is a module for prestashop, I edit this module for a specific store, added shipping label for product with shipping cost
+this is a module of prestashop, I edited this module for a specific store, added shipping label for product with shipping cost
