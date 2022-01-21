@@ -1,3 +1,2 @@
-# Google Merchant Center (Google Shopping)
-
-### Find all information about the module installation in HELP / FAQ Tab, in the module configuration
+# gmerchantcenterforGBP
+this is a module of prestashop, I edited this module for a specific store, added shipping label for product with shipping cost

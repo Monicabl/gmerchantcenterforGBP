@@ -611,18 +611,20 @@ abstract class BT_BaseXml
             // ****** MPN ******
             if (!empty($this->data->step->mpn)) {
                 $sContent .= "\t\t" . '<g:mpn><![CDATA[' . $this->data->step->mpn . ']]></g:mpn>' . "\n";
-            } elseif (empty(GMerchantCenter::$conf['GMC_INC_ID_EXISTS'])) {
-                $aReporting[] = 'mpn';
+            // } elseif (empty(GMerchantCenter::$conf['GMC_INC_ID_EXISTS'])) {
+            //     $aReporting[] = 'mpn';
+            }else{
+                $sContent .= "\t\t" . '<g:mpn><![CDATA[' . $this->data->p->reference . ']]></g:mpn>' . "\n";
             }
 
             // ****** IDENTIFIER EXISTS ******
-            if (
-                empty($this->data->step->gtin)
-                && (empty($this->data->step->mpn)
-                    || empty($this->data->p->manufacturer_name) || !empty(GMerchantCenter::$conf['GMC_FORCE_IDENTIFIER']))
-            ) {
-                $sContent .= "\t\t" . '<g:identifier_exists>FALSE</g:identifier_exists>' . "\n";
-            }
+            // if (
+            //     empty($this->data->step->gtin)
+            //     && (empty($this->data->step->mpn)
+            //         || empty($this->data->p->manufacturer_name) || !empty(GMerchantCenter::$conf['GMC_FORCE_IDENTIFIER']))
+            // ) {
+            //     $sContent .= "\t\t" . '<g:identifier_exists>FALSE</g:identifier_exists>' . "\n";
+            // }
 
             // ****** APPAREL PRODUCTS ******
             // ****** TAG ADULT ******
