@@ -1,0 +1,1 @@
+ALTER TABLE `PREFIX_gmc_taxonomy_categories` ADD `id_shop` tinyint(3) NOT NULL DEFAULT "1" AFTER `id_category`;

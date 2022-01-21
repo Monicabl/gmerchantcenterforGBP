@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `PREFIX_gmc_categories`;
+DROP TABLE IF EXISTS `PREFIX_gmc_taxonomy_categories`;
+DROP TABLE IF EXISTS `PREFIX_gmc_taxonomy`;
+DROP TABLE IF EXISTS `PREFIX_gmc_brands`;
+DROP TABLE IF EXISTS `PREFIX_gmc_tags`;
+DROP TABLE IF EXISTS `PREFIX_gmc_tags_brands`;
+DROP TABLE IF EXISTS `PREFIX_gmc_tags_cats`;
+DROP TABLE IF EXISTS `PREFIX_gmc_tags_suppliers`;
+DROP TABLE IF EXISTS `PREFIX_gmc_features_by_cat`;
+DROP TABLE IF EXISTS `PREFIX_gmc_gsa_orders_data`;

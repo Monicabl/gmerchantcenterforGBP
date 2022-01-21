@@ -1,0 +1,1139 @@
+Change history for Google Merchant Center
+-----------------------------------------
+===========================
+Version 4.7.34 (14/12/2021)|
+===========================
+- Fix for preorder tag
+- Use default function from Prestashop to generate product link with combination
+- Fix for stock detection on combination with multishop
+- Added Kuwait as available data feed
+- New way to handle unit waiting by Google
+
+
+===========================
+Version 4.7.33 (27/10/2021)|
+===========================
+- Fix for availability tag
+
+===========================
+Version 4.7.32 (07/10/2021)|
+===========================
+- Fix for multishop duplicated data
+
+===========================
+Version 4.7.31 (01/09/2021)|
+===========================
+- Fix for token on CRON and FLYOUTPUT 
+- Fix case when id_shop isn't get correctly on admin-generate
+- Handle dimension tag for product package
+- Removed code about Buy Google (Google stops the service)
+
+===========================
+Version 4.7.30 (05/07/2021)|
+===========================
+- Fix tag preorder and availability
+
+===========================
+Version 4.7.29 (07/04/2021)|
+===========================
+- Removed GSA lib (only the pro version will handle the order data sync)
+- Updated the GSA tab to preview the service
+- Added shopping_ads_excluded_country tag
+- Fix bad combo quantity detection
+- Added utm_content tag
+- Added option for combination separator on g:id tag
+- Handle cron and fly with controller
+- Wording update for old text never worded well
+- Handle pre-order tag from product and combination 
+- Handle MPN from product and combination for PS 1.7.7 + 
+
+
+===========================
+Version 4.7.28 (05/05/2020)|
+===========================
+- Update the getCarriers call to handle all carriers
+- Fix for Combo Url removed old code
+
+===========================
+Version 4.7.27 (30/03/2020)|
+===========================
+- Updated bad zip (made error on fresh install)
+
+
+===========================
+Version 4.7.26 (23/03/2020)|
+===========================
+- Added Google shopping action 
+- Added Destination exclusion tag
+- Added Shopping action feature
+- Added Register form for the Google Shopping Beta test
+- Added exclusion destination tag
+- Added sell_on_google_quantity
+- Added new countries
+
+===========================
+Version 4.7.25 (02/12/2019)|
+===========================
+- Added countries 
+
+===========================
+Version 4.7.25 (06/12/2019)|
+===========================
+- Added new option to manage bad product URL rewriting
+
+===========================
+Version 4.7.24 (13/11/2019)|
+===========================
+- Added new option to manage bad product URL rewriting
+
+============================
+Version 4.7.23 (28/10/2019)|
+============================
+Fixed
+-----
+- FIX bad url building for multiple currencies shop
+- FIX removed control on active Country in getLangCurrencyCountry to manage the case when a merchant deactivate the country and would like to see the data feed to prepare it
+
+Added
+-----
+- Lithuanian
+
+
+============================
+Version 4.7.22 (03/10/2019)|
+============================
+Fixed
+-----
+- URL combo url (the value was duplicated)
+
+
+============================
+Version 4.7.21 (24/09/2019)|
+============================
+Added
+------
+- Added gMerchantCenterCountries
+
+Fixed
+-----
+- URL combo + multiple currencies
+
+
+============================
+Version 4.7.20 (17/07/2019)|
+============================
+Added
+------
+- Added Romania
+
+============================
+Version 4.7.19 (18/06/2019)|
+============================
+Added
+------
+- New countries entries if PS package exist
+- New option to force the identifier exist
+
+
+============================
+Version 4.7.18 (05/04/2019)|
+============================
+Fixed
+-----
+- URL combo generation
+
+
+============================
+Version 4.7.17 (18/03/2019)|
+============================
+
+Added
+------
+- New lang combination
+
+Fixed
+-----
+- some syntax errors
+- some code optimization
+- Translation for product condition
+- Fix some bad display
+
+
+============================
+Version 4.7.16 (27/02/2019)|
+============================
+Added
+------
+- Do not epxort product with visibilty nowhere
+- New management for multiple currency
+- Allow anchors on product URL for PS 1.7 according to the module option
+
+Fixed
+-----
+- bad taxonomy association we used en-ES instead of es-ES
+- translation for tag on categories age group / gender etc
+
+
+============================
+Version 4.7.15 (23/11/2018)|
+============================
+Added
+-----
+- Step by step configuration
+- Option for simple ID on <g:id> tag
+- Option to export only cover image
+- Badge for recommended export method
+- Rework interface around table
+- Hide product already added in autocomplete
+- JS code optimization
+- FAQ footer link
+
+Fixed
+-----
+- currencies list to generate matching XML files with languages pack: Spanish
+- Some FAQ link
+- Some wording
+- Some translation
+
+============================
+Version 4.7.14 (22/11/2018)|
+============================
+Added
+-----
+-
+
+Fixed
+-----
+- Array entries for ES countries
+
+============================
+Version 4.7.13 (20/11/2018)|
+============================
+Added
+-----
+- New lang entries
+
+Fixed
+-----
+-
+
+============================
+Version 4.7.12 (19/11/2018)|
+============================
+Added
+-----
+- New lang entries
+
+Fixed
+-----
+-
+
+============================
+Version 4.7.11 (12/10/2018)|
+============================
+Added
+-----
+- Added new param in the combination URL to make the GDR module compatible with PS 1.6, and like this to dislay the GDR combination tag values
+
+Fixed
+-----
+-
+
+
+============================
+Version 4.7.10 (26/09/2018)|
+============================
+Added
+-----
+- New option to handle the "available for order" option in the product quantity tab
+
+Fixed
+-----
+- The way to manage specific prices into the admin-generate_class.php file
+
+
+===========================
+Version 4.7.9 (13/07/2018)|
+===========================
+Fixed
+-----
+- Bad behavior on the UTM_MEDIUM
+- Some conf var had a long name ( not compatible with PS 1.5 )
+- New entries for en
+- Fix on the sWeight var
+
+
+===========================
+Version 4.7.8 (24/04/2018)|
+===========================
+Added
+-----
+- new countries
+- new entries for GB lang
+- Manage image cover for multishop when a product is shared and the image is different
+
+Fixed
+-----
+
+Files
+-----
+- Some files
+
+
+===========================
+Version 4.7.7 (02/03/2018)|
+===========================
+Added
+-----
+- Tag feature by category for multishop
+
+Fixed
+-----
+
+Files
+-----
+- Some files
+
+
+===========================
+Version 4.7.7 (02/03/2018)|
+===========================
+Added
+-----
+- Tag feature by category for multishop
+
+Fixed
+-----
+
+Files
+-----
+- Some files
+
+
+===========================
+Version 4.7.6 (08/02/2018)|
+===========================
+Added
+-----
+- Compatibilty for PS 1.7.3.0 and multiple feature
+- Some attributes get numeric values as float number with "," or ".", and by default PS doesn't manage to put an underscore to replace the , or ., then the module allows this now.
+- Option to include or not the attribute ID into the combination URL according to the PS 1.6 version (from 1.6.0.13, PS includes the ID again) but not all the themes.
+
+Fixed
+-----
+
+Files
+-----
+- Some files
+
+
+===========================
+Version 4.7.5 (13/12/2017)|
+===========================
+Added
+-----
+- English for south africa and czech republic
+
+Fixed
+-----
+
+Files
+-----
+- conf/common.conf.php
+
+
+===========================
+Version 4.7.4 (04/10/2017)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Custom label wasn't added in the data feed 
+
+Files
+-----
+- conf/common.conf.php
+
+
+===========================
+Version 4.7.3 (19/09/2017)|
+===========================
+Added
+-----
+- New countries available with english language
+
+Fixed
+-----
+-
+
+Files
+-----
+- conf/common.conf.php
+
+
+===========================
+Version 4.7.2 (12/09/2017)|
+===========================
+Added
+-----
+- English language for DE
+
+Fixed
+-----
+- Save option for data feed without tax
+- Use the correct image for combination in multishop
+
+
+Files
+-----
+- lib/module-dao_class.php
+- lib/module-tools_class.php
+
+
+===========================
+Version 4.7.1 (28/08/2017)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Compatibility for PHP 7
+
+Files
+-----
+- lib/module-dao_class.php
+- lib/module-tools_class.php
+
+
+===========================
+Version 4.7.0 (22/08/2017)|
+===========================
+Added
+-----
+- New text to be more accurate about the module feature
+- New ES translation
+- New IT translation
+- New reporting interface
+
+Fixed
+-----
+- Bug fix for the multi-shop and the stock with export by combination, it multiplies the product entries in the XML file, we had to filter on the id_shop on the ps_stock_available table
+- Some other bug fix for interface
+- Some fix for data feed generation
+
+Files
+-----
+- lib/module-dao_class.php
+- lib/module-tools_class.php
+
+
+===========================
+Version 4.6.4 (16/08/2017)|
+===========================
+Added
+-----
+- N.A
+
+Fixed
+-----
+- Bug fix for a div without its close tag, and the  same for html P tag when the list of shipping carriers wasn't available
+- Bug fix for a closed div tag was forgot and messed up the layout when XML files weren't available
+
+Files
+-----
+- views/templates/admin/feed-settings.tpl
+- views/templates/admin/feed-list.tpl
+
+
+===========================
+Version 4.6.3 (26/07/2017)|
+===========================
+Added
+-----
+- N.A
+
+Fixed
+-----
+- The JQuery plugin "autocomplete" was executed twice in the template file and make the excluded product's list twice longer
+
+Files
+-----
+- views/templates/admin/feed-settings.tpl
+
+
+===========================
+Version 4.6.2 (04/05/2017)|
+===========================
+Added
+-----
+- New additional image management ( to take in consideration the sort image )
+- New GTIN management to be more flexible
+
+Fixed
+-----
+- Product exclusion when the export per combination is activated
+- Check override function removed
+- displayErrorModule to manage the good path
+
+Files
+-----
+- N.A
+
+
+===========================
+Version 4.6.1 (24/04/2017)|
+===========================
+Added
+-----
+- New available languages for some countries
+
+Fixed
+-----
+- Product exclusion when the export per combination is activated
+
+Files
+-----
+- N.A
+
+
+===========================
+Version 4.6.0 (20/02/2017)|
+===========================
+Added
+-----
+- New Data feed export interface
+- New reporting interface
+- New official Google link in the interface
+- Possibilty to manage few currency for one country/lang combination
+- Manage the export, without tax
+
+Fixed
+-----
+-
+
+Files
+-----
+- N.A
+
+
+===========================
+Version 4.5.1 (11/10/2016)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Interface and translates
+
+Files
+-----
+- N.A
+
+
+===========================
+Version 4.5.0 (26/09/2016)|
+===========================
+Added
+-----
+- Prestashop 1.7 compatibilty
+- New layout
+
+Fixed
+-----
+-
+
+Files
+-----
+- N.A
+
+
+===========================
+Version 4.4.3 (16/06/2016)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Specific price To value
+
+Files
+-----
+- xml-product_class.php
+- xml-combination_class.php
+
+
+===========================
+Version 4.4.2 (06/06/2016)|
+===========================
+Added
+-----
+-
+
+Fixed
+-----
+- Specific price handle
+
+Files
+-----
+- xml-product_class.php
+- xml-combination_class.php
+
+
+===========================
+Version 4.4.1 (30/08/2016)|
+===========================
+Added
+-----
+- Option to use the Combination or feature for size tag
+- Added <g:sale_price_effective_date> tag
+- Added Bundle tag with default PS function and advance PACK
+- Added free shipping for specific product and combination
+- Added new age_group values toddle, infant, newborn
+- Added size_type tag
+- Added size_system
+
+Fixed
+-----
+- N.A
+
+Files
+-----
+- /lib/admin/admin-display_class.php
+- /lib/admin/admin-update_class.php
+- /views/templates/admin/feed-settings.tpl
+- /views/templates/admin/advanced-tag-catagory.tpl
+
+
+===========================
+Version 4.4.0 (19/07/2016)|
+===========================
+Added
+-----
+- One CRON url per data feed for big products catalog
+
+Fixed
+-----
+- Behavior to get the g:gtin when the merchant uses the UPC
+
+Files
+-----
+- /lib/xml/base-xml_class.php
+- /lib/xml/xml-combination_class.php
+- /lib/xml/xml-product_class.php
+- /lib/module-dao_class.php
+- /lib/module-update_class.php
+- /views/templates/admin/feed-list.tpl
+- /lib/admin/admin-display_class.php
+- /lib/admin/admin-generate_class.php
+
+
+===========================
+Version 4.3.9 (01/07/2016)|
+===========================
+Added
+-----
+- N.A
+
+Fixed
+-----
+- Tag identifier exist behavior
+- Escape for SQL request
+- getCarrierTaxRate function
+- Currency option save
+
+Files
+-----
+- module-dao_class.php
+- base-xml_class.php
+
+
+===========================
+Version 4.3.8 (13/06/2016)|
+===========================
+Added
+-----
+- N.A
+
+Fixed
+-----
+- Force $sPipe = ' > ';
+
+Files
+-----
+- N.A
+
+
+===========================
+Version 4.3.7 (08/06/2016)|
+===========================
+Added
+-----
+- N.A
+
+Fixed
+-----
+- Update the identifier_exist tag behavior
+
+Files
+-----
+- N.A
+
+
+===========================
+Version 4.3.6 (27/05/2016)|
+===========================
+Added
+-----
+- Added new layout to the yes / no buttons
+- Changed the blue buttons to dropdown list into the tabs
+
+Fixed
+-----
+- product type encoding
+- fixed the advanced protection mode update
+
+Files
+-----
+- N.A
+
+
+Version 4.3.5 (03/02/2016)
+- Little update for icon design for Google Chrome on PC
+- SQL query optimization function (getProductCombination) to better manage id_product_attribute recovered
+
+
+Version 4.3.4 (09/12/2015)
+- Bug fix for using the selected home category when there are products related to.
+- Bug fix for google category product flag in the reporting tool
+- Added a test for the "available for _order" product's option activated or not, then exclude or not the product to the data feed
+
+
+Version 4.3.3 (03/12/2015)
+- Bug fix for updating translations of the name of the home category
+- Update getProductComboLink function to handle combination with comma and dot in numeric values as example : 0,5kg
+- Update Custom Label on categories to use the product's category tree instead of the default category only
+- Added info box for documentation above back-office tabs
+
+
+Version 4.3.2 (09/11/2015)
+- Bug fix for carriers in the back-office to use one of them but an error was returned when any carrier was assigned to the country and currency, so we added a test to not use this country with carrier
+
+
+Version 4.3.1 (28/10/2015)
+- Add a new FAQ link to help the customer with Google Shopping
+
+
+Version 4.3.0 (13/10/2015)
+- Changed the way to check if products are active or not with the ps_product_shop table and not with the ps_product table which is not updated by Store Commander module, so countProducts() and getProductIds() are based on it.
+- Added new feature that allow merchant to exclude a list of products by using an autocomplete feature
+
+
+Version 4.2.4 (05/08/2015)
+- Add try catch for files create in module-update_class.php
+
+
+Version 4.2.3 (20/07/2015)
+- Bug fix for color tag, changed the way to handle color tag value after a module's upgrade
+
+
+Version 4.2.2 (09/07/2015)
+- Changed label for text "include tag adult"
+- Removed the quantity google tag
+
+
+Version 4.2.1 (06/07/2015)
+- Bug fix for update configuration options as color tag or check export and gmerchantcenter.xml.php file detected as the good one at the shop's root folder
+
+
+Version 4.2.0 (30/06/2015)
+- Changed the module's structure, applied our new framework
+- Added optimizations on the generate XML feed (ajax, on-the-fly output, cron task), added new error labels
+- Changed the back-office layout (applied new buttons and new tabs)
+- removed useless php code parts + industrialize methods
+- Added counter on the real number of products exported
+- Added new layout on the XML files table.
+- Changed the way to disable the configuration according to warnings
+- Added new options for color tag : attributes and features can be applied at the same time
+- Removed adwords grouping and adwords label tags, no longer exists, replaced by custom label
+
+
+Version 4.1.6 (22/04/2015)
+- Changed Adwords labels: removed adwords_grouping and adwords_labels as these are now deprecated and added dynamic custom label tags by features
+- Changed the way to handle g:color tag with attributes or features or both
+
+
+Version 4.1.5 (13/04/2015)
+- Remove tag g:genre and g:feature in the module form
+- Add lv_6.gif for catalog with lot of categories
+- Add home categories id for categories tree
+
+
+Version 4.1.4 (11/03/2015)
+- Small bug fix for pattern management (empty replace by !empty)
+
+
+Version 4.1.3 (03/03/2014)
+- Add new FAQ generic topic link
+
+
+Version 4.1.2 (26/02/2015)
+- Update IT / ES translate
+- Update tools:getisset by isset for shipping
+
+
+Version 4.1.1 (11/02/2015)
+- Small bug fix for _no_export_no_ean with Tools::getIsset function
+- Small bug fix for _no_export_no_supplier_ref Tools::getIsset function
+
+
+Version 4.1.0 (30/12/2014)
+- Set default description at 5000 letters
+- Small bug fix for render in reporting.tpl
+- Added last date update for data feed
+- Added feature to manage or not the shipping cost
+
+
+Version 4.0.7 (17/12/2014)
+- replace Getisset by isset un GetPath function
+
+
+Version 4.0.6 (14/11/2014)
+- Small bug fix for Google categories
+
+
+Version 4.0.5 (19/11/2014)
+- Small fixes to improve results in PrestaShop module validator
+
+
+Version 4.0.4 (27/08/2014)
+- Bug fix currency SEK
+- Bug fix JQUERY for old PS 1.4
+- Remove "Warning no export method", in locales prerequisite
+
+
+Version 4.0.3 (12/08/2014)
+- Bug fix display for tax & shipping
+
+
+Version 4.0.2 (11/08/2014)
+- Bug fix translation
+
+
+Version 4.0.1 (29/07/2014)
+- bug fix URL TAXONOMY
+
+
+Version 4.0.0 (25/07/2014)
+- New layout with bootstrap
+- Auto insert Tag identifier_exist
+- Auto set title in lowercase ( Google Prerequisite )
+- Hide warning on Gender and Age group on the reporting
+- Add tag_adult management for each category
+- Add tag custom_label management for each category
+- Add MD5 protect for on-the-fly output with the possibilty to active or not the protection
+- Add advanced title management
+- Add configuration file to set value from Google prerequisite (conf/google_conf.php)
+- New system for g:material and g:pattern for each category
+- New check system for export method ( alert system when the checkbox is empty )
+- New system to check data feed to export with CRON
+- Bug Fix function GetProductCombos()
+- Bug Fix function SetCurrency() in Tools.php file
+- New country (China and Sweden)
+
+
+Version 3.1.10 (29/04/2014)
+- Bug fix id_currency
+
+
+Version 3.1.9 (29/04/2014)
+- Bug Fix Min version
+
+
+Version 3.1.8 (28/04/2014)
+- Bug fix Additional Image
+- Bug Fix Context Currency
+- Bug fix version
+
+
+Version 3.1.7 (20/12/2013)
+- Small bug fix for testing if "mb_substr" function exists at line 2412, missing test for this function. Produced a warning and prevent data feed to be updated.
+
+
+Version 3.1.6 (14/11/2013)
+- Small fix on gender and age group by product category
+
+
+Version 3.1.5 (13/11/2013)
+- Added new countries added by Google: Poland, Denmark, Belgium etc...
+
+
+Version 3.1.4 (30/10/2013)
+- Fix on getProductComboLink() to replace - by _
+- Fix on form_config and getAvailableTaxonomyCountries() for issues with multiple possible language codes for a given country (eg: en, gb, en-gb)
+- Safety code to not export products with missing name, image, description or link (Google will refuse otherwise)
+- Fix in _generateProductXML() for manual generation of files with multiple currencies enabled
+- Added translations IT and ES
+
+
+Version 3.1.3 (04/10/2013)
+- Added fix for getProductLink() for various cases to get around bugs on some versions of 1.5
+- Bug fix: variants with no stock woudl get exported if any other variant had stock
+- Added recap table for countries, languages and currencies to help merchanst with pre-requisites configuration
+
+
+Version 3.1.2 (30/09/2013)
+- Bug fix on GMCRound() function
+- Added English language for Switzerland (new on Google)
+- Added compatibility with ISO codes en-us and en-gb in PrestaShop for new English language packs
+- Added product link in data diagnostic tool
+
+
+Version 3.1.1 (18/09/2013)
+- added countries : canada/ russia / india /sweden
+- made description truncation to 10 000 characters
+- fixed problem with specific prices
+- fixed problems with reporting tool
+- change behavior to activate reporting, now the script reporting is no longer executed when the setting is deactivated. Made for important bulk of products.
+
+
+Version 3.1.0 (16/08/2013)
+- Fix on g:id for products with attributes: replace "-" by "v" as Google now only allows alphanumerical strictly
+- Fix on AJAX URL for some versions of PrestaShop to avoid double &&
+- Added LIMIT 0,30 on color and size attributes as Google will refuse more
+- Replace id_currency by gmc_currency in links + override files when "add currency in link" option is activated, otherwise it is blocked by PrestaShop's robots.txt
+- Fix on carriers to allow carriers linked to modules
+- Additional sanity checks on code to retrieve list of zones and carriers for better robustness
+- Added ability to duplicate first value on all categories in Google categories management interface
+- Added some sanity checks on update of array based parameters to remove notices and warnings
+- Added Google Analytics tracking parameters
+- Fix on product weight for products with attributes
+- Added gender and age group definition by product category
+- Added definition for new GB language pack
+
+
+Version 3.0.2 (18/06/2013)
+- small bug fix for override folder, there is a conflict with PS 1.5 if the class override already exists
+
+
+Version 3.0.1 (17/06/2013)
+- Fix to get around a bug in PrestaShop 1.5 with getImageLink() in multishop on back-office, see http://forge.prestashop.com/browse/PSCFV-9217
+- Added automatic calculation of shipping fees
+- Added check for buffer length on ob_end_clean() to avoid warnings when buffer is empty
+- Removed expiration date (unnecessary)
+- Various small CSS fixes on <table> tags for 1.5
+- Added option to choose product reference or supplier reference for MPN
+- Removed dash (-) in g:id attribute as Google now only accepts alphanumeric in a strict way
+- Added CURL as a backup method if allow_url_fopen directive does not allow file_get_contents() for URL's
+- Added a few requirements checks on _displayForm() to make sure the module can be used correctly
+- Added product exclusion on minimum price (tax excluded)
+- Regrouped all product exclusion parameters in a new "Product exclusion rules" configuration tab
+- Modified reporting system to differentiate between error, notice and warning, with color coding
+- Added new <g:identifier_exists> option for products without GTIN and MPN
+- Added additional photos (<g:additional_image_link>)
+- Added attribute specific links for 1.5
+- Added clean-up of titles longer than 70 characters on products with attribute names concatenated
+- Added ability to include id_currency in URL + separate Tools.php override file for 1.4 / 1.5 so it can work (so the site can be displayed in the same currency as the feed when the link is clicked, otherwise Google refuses the feed)
+- Cleaned up some configuration keys that are no longer used such as GMC_INC_BRAND, GMC_INC_MREF, GMC_INC_SHIP, GMC_INC_CAT and GMC_INC_WEIGHT
+- Updated documentation and added instructions for overriding Tools.php
+
+
+Version 2.2.6 (30/04/2013)
+- small bug fix for item_group_id
+
+
+Version 2.2.5 (08/04/2013)
+- bug fix for multishop on non-active products being included
+
+
+Version 2.2.4 (15/03/2013)
+- bug fix on reporting folder => folder added again (it was deleted) by a mishandling
+
+
+Version 2.2.3 (11/03/2013)
+- Added green check and success confirmation message on diagnostic tool (people used to think it was an error message)
+
+
+Version 2.2.2 (01/03/2013)
+- Fix on SQL for getTagsForXml() for 1.4 version
+
+
+Version 2.2.1 (22/02/2013)
+- Fix for some server configurations that cause output buffering problems: now use ob_end_clean() instead of ob_clean()
+
+
+Version 2.2.0 (19/02/2013)
+
+- Added Adwords integration: adwords_labels and adwords_grouping
+- Added option to set Home category (necessary for shops who upgraded from 1.x to 1.5)
+- Updated documentation for CRON
+
+
+Version 2.1.0 (06/02/2013)
+- Improvement on supplier reference: use reference instead supplier reference for MPN if supplier reference is empty
+
+
+Version 2.0.9 (04/12/2012)
+- Fixes on EAN13 and UPC value test for configured GTIN
+- Updates to make the supplier reference returned for a default product when there is product attributes with version 1.5
+
+
+Version 2.0.8 (27/11/2012)
+- Fixes for 1.5 on default category for configured home category name
+- Fixes for reporting tool on product type
+
+
+Version 2.0.7 (23/11/2012)
+- Fixes for 1.5 on stock and attributes
+- Fixes for 1.5 on supplier references
+
+
+Version 2.0.6 (20/11/2012)
+- Fixed the HOME_CAT update test while update module function is executed.
+- Consequence : update to empty array
+- Fixed behavior of getting supplier reference for product with or without combination on 1.5 prestashop's version
+- Consequence : can't really get supplier reference of one product.
+
+
+Version 2.0.5 (12/11/2012)
+- Fixed the S_SESSION used for taxonomy : produces only a notice in debug mode.
+- Mofified category tree code: on shops migrated from 1.4 to 1.5, Root with ID 1 and Hoem with ID 2 does not exist and this causes problems for viewing the category tree
+
+
+Version 2.0.4 (30/10/2012)
+- Fixed the <![CDATA[]]> tag on link. Yesterday's update introduced a problem due to a small syntax error. Shame on us....
+
+
+Version 2.0.3 (29/10/2012)
+- Fixed product URL product when executed through AJAX
+
+
+Version 2.0.2 (29/10/2012)
+- Added: recopy gmerchantcenter.xml.php "on-the-fly" output file at root of shop during module update to avoid forcing the merchant to copy manually
+
+
+Version 2.0.1 (24/10/2012)
+- Updates to make the module with version 1.5 and multi-shop
+- Turned constant AJAX_PRODUCTS_PER_CYCLE into a configuration variable
+
+
+Version 1.5.1 (12/09/2012)
+- Fix bug from Prestashop about unavailable backward compatibility with JQuery UI and thickbox, delete old PHP variable were no more used. (prevent PHP notice)
+- Consequence : thickbox's popin could not be closed, unbind function is depreciated in JQuery 1.7 with UI 1.18.23
+
+
+Version 1.5.0 (20/08/2012)
+- New diagnostic tool and link to Business Tech's FAQ
+- Fix on image URL's for shops using CDN / media servers for images
+- Modified initialization of Google categories on install. No longer inserted on install, but the merchant now does the update via the interface, one language at a time. Avoids installation problems with too many SQL statements being executed
+- Form errors now more visible if some mandatory form fields were not filled out
+- Some configuration parameters removed as they became deprecated following some changes with Google
+
+
+Version 1.4.2 (23/03/2012)
+- Fix on module update script from module versions 1.3.x
+
+
+Version 1.4.1 (14/03/2012)
+- New generation of XML files via AJAX
+- New slick UI
+- Added automatic detection of EAN vs UPC
+- Added compatibility for CDN based image URL's
+- Added ability to export specific categories only
+- Added support for multiple languages per country (e.g. Switzerland)
+- Added Brazil and Czech Republic data
+- Completely revamped the Google categories system and included a database update script
+- Added ability to update the taxonomy live from Google via AJAX
+- Fix on shipping fees (free / 0 shipping fee was not being included at all)
+- Fix on Prestashop ISO code for Japan (ja instead of jp) and China (zh instead of zn)
+- Updated documentation and screenshots
+
+
+Version 1.3.1 (29/12/2011)
+- Change in the way the Google product taxonomy is handled
+- Added correspondence of Google fields in module configuration screen
+
+
+Version 1.3.0 (09/09/2011)
+- Major upgrade to accomodate Google's new 22/09/2011 requirements: product taxonomy, shipping fees and tax, apparel attributes, group ID's
+- Added new GMC countries: Brazil and Switzerland
+- Fix on cookie setting in product loop that caused headers to be too big for large catalogs under Google Chrome browser
+- Optimization of the way the product loop is run to avoid running out of RAM on large catalogs
+- Re-organized configuration interface with tabs
+
+
+Version 1.2.1 (10/08/2011)
+- Bug fix: products marked as inactive or not indicated as available for order (v1.4) were being exported anyway
+
+
+Version 1.2.0 (10/05/2011)
+- Small improvements to uncapProductTitle function
+- Added Australia in countries definition
+- Update for v1.4: Added ability to select EAN or UPC for unique product identifier
+- Added ability to select short or long description or both for product description
+- Modification on the way image URL's are generated for better compatibility with all PS versions
+- Added ability to generate one product per product combination
+
+
+Version 1.1.4 (23/03/2011)
+- Version 1.4 optimization: added config.xml file
+- Improvement of product URL's to include category rewrite_link so it matches public shop URL's (lines 1044-1045)
+
+
+Version 1.1.3 (09/02/2010)
+- Fixed a small problem relative to $this->displayFlags : flag div needs to be enclosed in another div wrapper, otherwise it creates a small display bug on some v1.3.x and v1.4 when clicking on one of the flags
+- Added new Google Merchant Center countries in $gMerchantCenterCountries countries definition: Italy, Spain and Netherlands
+
+
+Version 1.1.2 (15/01/2011)
+- Fixed conception error for currencies: default currency and corresponding price was always outputed regardless of country
+  (Google requires each country feed to be built with the official country's currency)
+- Fixed conception error for product ID: must be unique for each country. Now based on country ISO code + product ID instead of language ISO code + product ID
+- Added v 1.4 specific feature: product condition from product data for each product replaces global module setting.
+  Earlier Prestashop versions will use module configuration value (can now be set to nothing)
+- Added truncate to 70 characters for product titles (Google will refuse longer ones)
+- Added clean-up of XML files upon module uninstall
+- Updated documentation with brief explanation of Google requirements
+
+
+Version 1.1.1 (13/01/2011)
+- Added Prestabox specific features for file names and domain name
+- Modification of timestamp generation via (time() + (86400 * x)) instead of strtotime("+x days"), where x is number of days for best system compatibility
+- Updated the documentation
+
+
+Version 1.1 (12/01/2011)
+- Moved XML output directory (created during install) to site root to solve problem of directory access restricted by Disallow: /modules/ directive in Prestashop's robots.txt
+- Broke down writeXMLFiles() function into buildXML() and writeXMLFiles() + added function outputXML()
+- Added gmerchantcenter.xml.php to allow on-the-fly output of XML for people who cannot schedule CRON tasks to update the XML files automatically
+- Made Google allowed weight units more visible by setting var $gMerchantCenterWeightUnits at the top of the file
+
+
+Version 1.03 (17/12/2010)
+- Bug fix: products with id_category_default equal to 0 or 1 would cause crash. Fixes applied on lines 692-711 and 874-879
+- Bug fix: added distinct() in SELECT for getProductAttributes() to de-dupe in case of multiple attribute combinations (line 770)
+- Added LIMIT 0, 10 in SELECT for getProductAttributes() as Google has a max of 10 items for <g:color> and <g:size> (line 779)
+
+
+Version 1.02 (16/12/2010)
+- Bug fix: any errors related to writing the XML files were not caught -> added if (sizeof($this->_postErrors)) after $this->writeXMLFiles() (line 187)
+
+
+Version 1.01 (07/12/2010)
+- Bug fix: strtolower_utf8() function -> wrong variable name in mb_strtolower() (line 696)
+- Bug fix: in XML output, <g:size> was outputed instead of <g:color> (line 894)
+- Bug fix: variable fixed from $feature['name'] to $feature (line 871)
+- Safer output: added stripslashes and CDATA tags on <g:feature>, <g:genre>, <g:size> and <g:color> (lines 871, 878, 886, 894)
+- Variable renamed from $feature to $genre (line 877)
+
+
+Version 1.0 (01/12/2010)
+- Original release

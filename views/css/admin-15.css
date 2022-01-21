@@ -1,0 +1,83 @@
+/*
+	overload bootstrap 1.6 theme (some things do not exist for PS 1.5)
+*/
+.bootstrap .nav-tabs
+{
+	border-bottom: 1px solid #dddddd !important;
+}
+.bootstrap .nav > li > a, .bootstrap #header_notifs_icon_wrapper > li > a, .bootstrap #header_employee_box > li > a, .bootstrap #header_quick > li > a { position: relative; display: block; padding: 10px 9px; }
+.bootstrap .btn-default {color: #555;background-color: #fff; border-color: #ccc !important;}
+.bootstrap .btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 4px 5px; font-size: 12px; line-height: 1.42857; border-radius: 3px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+
+#content .alert {
+	width: 100% !important;
+	padding-left: 50px !important;
+	padding-bottom: 15px !important;
+}
+
+#content .alert-info
+{
+	padding-left: 50px;
+	padding-bottom: 15px;
+	position: relative;
+	border: none !important;
+	border-left: solid 3px #81cfe6 !important;
+	color: #31b0d5;
+	background-color: #f8fcfe;
+}
+#content .alert-warning
+{
+	padding-left: 50px;
+	padding-bottom: 15px;
+	position: relative;
+	border: none !important;
+	border-left: solid 3px #f4c178 !important;
+	background-color: #fcf8e3;
+	/*border-color: #faebcc;*/
+	color: #8a6d3b;
+}
+#content .alert-danger
+{
+	padding-left: 50px;
+	padding-bottom: 15px;
+	position: relative;
+	border: none !important;
+	border-left: solid 3px #a94442 !important;
+	/*border-color: #ebccd1;*/
+	color: #a94442;
+}
+#content .alert-success
+{
+	padding-left: 50px;
+	padding-bottom: 15px;
+	position: relative;
+	border: none !important;
+	border-left: solid 3px #90cb5c !important;
+	background-color: #dff0d8;
+	/*border-color: #d6e9c6;*/
+	/*color: #3c763d;*/
+}
+.bootstrap .dropdown-menu > .active > a, .bootstrap .dropdown-menu > .active > a:hover, .bootstrap .dropdown-menu > .active > a:focus
+{
+	color:#00aff0;
+}
+.bootstrap .dropdown-menu > li > a:hover
+{
+	color:#415260;
+	background-color:#00aff0 ;
+}
+.bootstrap label {text-shadow: none;}
+.nobootstrap label {text-shadow: none;}
+.bootstrap a {
+	color: black;
+	text-decoration: none !important;
+}
+.bootstrap .button {width:100%}
+.bootstrap .button .switch .btn-yes {top:0; left: 0; position: absolute;}
+.bootstrap .button .switch .btn-no {top:0; right:0; position: absolute;}
+
+.bootstrap .row {background: none;}
+.bootstrap .table tr th {background: none;}
+/*
+	END - overload bootstrap 1.6 theme (some things do not exist for PS 1.5)
+*/

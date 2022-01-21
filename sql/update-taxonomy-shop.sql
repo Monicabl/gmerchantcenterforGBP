@@ -1,0 +1,1 @@
+ALTER TABLE `PREFIX_gmc_categories` ADD `id_shop` INT NOT NULL DEFAULT "1", DROP INDEX `id_category`, ADD UNIQUE (`id_category`, `id_shop`);

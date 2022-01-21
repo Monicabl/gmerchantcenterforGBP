@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS `PREFIX_gmc_taxonomy_categories` (`id_category` int(11) NOT NULL, `txt_taxonomy` text NOT NULL, `lang` char(5) NOT NULL, KEY `id_category` (`id_category`,`lang`)) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `PREFIX_gmc_taxonomy` (`id_taxonomy` int(11) NOT NULL AUTO_INCREMENT, `value` text NOT NULL, `lang` varchar(5) NOT NULL, PRIMARY KEY (`id_taxonomy`), KEY `lang` (`lang`), FULLTEXT KEY `ft_index` (`value`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;

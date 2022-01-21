@@ -1,0 +1,1 @@
+ALTER TABLE `PREFIX_gmc_tags` ADD `id_shop` int(11) NOT NULL DEFAULT "1" AFTER `id_tag`;
